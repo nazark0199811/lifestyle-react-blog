@@ -1,0 +1,14 @@
+.header {
+    position: relative;
+    display: grid;
+    align-content: center;
+    min-height: 700px;
+    min-width: fit-content;
+    background-color: #161F22;
+    background-image: url(../../assets/img/header_background.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+

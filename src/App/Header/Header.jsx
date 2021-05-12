@@ -1,62 +1,22 @@
 import React from 'react'
+import Logo from './Logo/Logo'
+import Menu from './Menu/Menu'
+import Content from './Content/Content'
 
 const Header = () => {
     return (
         <>
-            <header class="header">
-
-                <div class="header-menu">
-                    <div class="header-menu__container">
-
-                        <div class="header-logo">
-                            <a href="#" class="header-logo__link">
-                                <img class="header-logo__accent" src="assets/img/header_logo.png" alt="logo" />
-                            </a>
-                        </div>
-
-                        <nav class="header-navbar">
-
-                            <div class="header-navbar__btn">
-                                <span class="header-navbar__btn-row"></span>
-                                <span class="header-navbar__btn-row"></span>
-                                <span class="header-navbar__btn-row"></span>
-                                <span class="header-navbar__btn-row"></span>
-                            </div>
-
-                            <ul class="header-navbar__list">
-
-                                <li class="header-navbar__item">
-                                    <a href="#" class="header-navbar__link">Home</a>
-                                </li>
-
-                                <li class="header-navbar__item">
-                                    <a href="#" class="header-navbar__link">Places</a>
-                                </li>
-
-                                <li class="header-navbar__item">
-                                    <a href="#" class="header-navbar__link">Stories</a>
-                                </li>
-
-                                <li class="header-navbar__item">
-                                    <a href="#" class="header-navbar__link">People</a>
-                                </li>
-
-                                <li class="header-navbar__item">
-                                    <a href="#" class="header-navbar__link">About us</a>
-                                </li>
-
-                                <li class="header-navbar__item">
-                                    <a href="#" class="header-navbar__link">Contacts</a>
-                                </li>
-                            </ul>
+            <header className="header">
+                <div className="header-menu">
+                    <div className="header-menu__container">
+                        <Logo/>
+                        <nav className="header-navbar">
+                            <Menu/>
                         </nav>
                     </div>
                 </div>
-
-                <div class="header-content">
-                    <div class="header-content__container">
-                        <div class="header-content__img"><img class="header-content__img" src="assets/img/header_title.png" alt="logo" /></div>
-                    </div>
+                <div className="header-content">
+                    <Content/>
                 </div>
             </header>
         </>

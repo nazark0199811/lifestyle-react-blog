@@ -1,15 +1,18 @@
 import React from 'react'
-import '../assets/css/style.css'
 import Header from './Header/Header'
 import Main from './Main/Main'
 import Footer from './Footer/Footer'
 
+import '../assets/css/style.css'
+import './Header/header.css'
+import './Footer/footer.css'
+
 const App = () => {
     return (
         <>
-            <Header />
-            <Main />
-            <Footer />
+            <Header/>
+            <Main/>
+            <Footer/>
         </>
     )
 }

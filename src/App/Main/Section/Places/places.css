@@ -1,0 +1,74 @@
+.places-container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+  
+  }
+  
+  .places-item__link{
+    background-color: black;
+    width: 100%;
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  
+  .places-item__link img:hover{
+    opacity: 0.6;
+  }
+  
+  /* SECTION PLACES IMG */
+  
+  .places-item__image img{
+    width: 100%;
+    height: auto;
+    transition: 1s;
+    opacity: 0.9;
+  }
+  
+  .places-item__image img:hover {
+    opacity: 0.5;
+    
+  }
+  
+  /* SECTION PLACECS TITLE */
+  
+  .places-item__title {
+    position: relative;
+    background-color: rgb(27, 20, 24);
+    margin: 0 10px 0 10px;
+  }
+  
+  .places-item__title h2 {
+    position: absolute;
+    bottom:  30px;
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 10px -15px 10px;
+    transition: 0.7s;
+    font-weight: 200;
+  
+  }
+  
+  .places-item__title h2::after {
+      position: absolute;  
+      bottom: -10px;
+      left: 0;
+      width: 0px;
+      height: 2px;
+      content: "";
+  
+  }
+  
+  .places-item:hover .places-item__title h2:focus,
+  .places-item:hover .places-item__title h2 {
+    transform: translate3d(0px, -15px, 0px);
+  }
+  
+  .places-item:hover .places-item__title h2:after{
+    background: #db9d3a;
+    width: 120px;
+    transition: width 0.7s ease-out; 
+  }

@@ -1,0 +1,12 @@
+.footer__title span:nth-of-type(1) {
+    margin-right: -0.5em;
+    letter-spacing: 0.33em;
+    color: #EBAD4C;
+    font-weight: 100;
+  }
+  
+  .footer__title span:nth-of-type(2) {
+    letter-spacing: 0.05em;
+    color: #e5e5e5;
+    font-weight: 700;
+  }
