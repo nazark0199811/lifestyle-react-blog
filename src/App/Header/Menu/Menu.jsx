@@ -14,27 +14,27 @@ const Menu = () => {
             <ul className="header-navbar__list">
 
                 <li className="header-navbar__item">
-                    <a href="#" className="header-navbar__link">Home</a>
+                    <a href="/" className="header-navbar__link">Home</a>
                 </li>
 
                 <li className="header-navbar__item">
-                    <a href="#" className="header-navbar__link">Places</a>
+                    <a href="/" className="header-navbar__link">Places</a>
                 </li>
 
                 <li className="header-navbar__item">
-                    <a href="#" className="header-navbar__link">Stories</a>
+                    <a href="/" className="header-navbar__link">Stories</a>
                 </li>
 
                 <li className="header-navbar__item">
-                    <a href="#" className="header-navbar__link">People</a>
+                    <a href="/" className="header-navbar__link">People</a>
                 </li>
 
                 <li className="header-navbar__item">
-                    <a href="#" className="header-navbar__link">About us</a>
+                    <a href="/" className="header-navbar__link">About us</a>
                 </li>
 
                 <li className="header-navbar__item">
-                    <a href="#" className="header-navbar__link">Contacts</a>
+                    <a href="/" className="header-navbar__link">Contacts</a>
                 </li>
             </ul>
         </>

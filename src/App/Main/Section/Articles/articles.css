@@ -28,6 +28,9 @@
     
   }
   
+  .article-item__head{
+    display: block;
+  }
   
   .article-item__image{
     position: relative;
@@ -77,11 +80,8 @@
   }
   
   .article-item__likes, .article-item__read{
-    display: inline-block;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
     text-decoration: none;
-    bottom: unset;
   }
   
   .article-item__likes a, .article-item__read a{
@@ -90,11 +90,101 @@
     color: #5d7b86;
   }
   
-  .article-item__read a{
+  /* .article-item__read a{
     transition: 0.7s;
     margin-left: 290px;
-  }
+  } */
   
   .article-item__read a:hover{
     color: #db9d3a;
+  }
+
+  .article-item__footer{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 991.8px) and (min-width: 768px) {
+  
+  .articles h2 {
+    font-size: 2.5rem;
+  }
+  
+  .articles__container {
+    grid-template-columns: 1fr 1fr;
+    margin: 0 20px;
+  }
+  
+  .article-item__description {
+    font-size: 1.1rem;
+  }
+  
+  .article-item__title a {
+    font-size: 1.5rem;
+  }
+  
+  .article-item__read a {
+    margin-left: 0; 
+  }
+  }
+
+  @media (max-width: 767.9px) and (min-width: 576px) {
+  
+  .articles h2 {
+    font-size: 2rem;
+  }
+  
+  .articles__container {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+  
+  .article-item__image img {
+    width: 100%;
+    height: 100%; 
+    max-height: 100%;
+  }
+  
+  .article-item__description {
+    font-size: 1.4rem;
+  }
+  
+  .article-item__title a {
+    font-size: 2rem;
+  }
+  
+  .article-item__read a {
+    margin-left: 0; 
+  }
+  }
+
+  @media (max-width: 575.8px) {
+
+  .articles h2 {
+    font-size: 1.5rem;
+  }
+  
+  .articles__container {
+    grid-template-columns: 1fr;
+    margin: 0 10px;
+  }
+  
+  .article-item__image img {
+    width: 100%;
+    height: 100%; 
+    max-height: 100%;
+  }
+  
+  .article-item__description {
+    font-size: 1rem;
+  }
+  
+  .article-item__title a {
+    font-size: 1.2rem;
+  }
+  .article-item__read a {
+    transition: 0.7s;
+    margin-left: 201px;
+  }
+  
   }

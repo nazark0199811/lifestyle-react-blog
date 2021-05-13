@@ -9,6 +9,38 @@
     background-position: 50% 50%;
     background-size: cover;
     background-attachment: fixed;
-    
 }
 
+@media (max-width: 991.8px) and (min-width: 768px) {
+    .header-content__img img {
+        max-width: 60%;
+    }
+    .header-navbar__link {
+        font-size: 1.1rem;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 767.9px) and (min-width: 576px) {
+    .header-content__img img {
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 575.8px) {
+    .header-content__img img {
+        max-width: 60%;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-navbar__btn {
+        display: none;
+    }
+}
+
+@media (max-width: 767.8px) {
+    .header-navbar__link {
+        display: none;
+    }
+}

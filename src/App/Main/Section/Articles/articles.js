@@ -1,0 +1,8 @@
+
+// const articles = [
+// {
+//     img:"",
+//     icon:"",
+
+// }
+// ]

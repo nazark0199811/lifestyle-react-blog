@@ -72,3 +72,37 @@
     width: 120px;
     transition: width 0.7s ease-out; 
   }
+
+  @media (max-width: 991.8px) and (min-width: 768px) {
+  
+     .places-item__title h2 {
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 767.8px) and (min-width: 576px) {
+  
+        .places-container {
+          position: relative;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          justify-content: center;
+          align-items: center;
+          padding-bottom: 0px;
+      }
+
+    }
+
+    @media (max-width: 575.8px) {
+    
+        .places-container{
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+    
+        .places-item__title h2::after { 
+          top: 60px;
+          right: 65%;
+     
+      }
+    }

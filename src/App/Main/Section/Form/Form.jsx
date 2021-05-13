@@ -17,7 +17,7 @@ const Form = () => {
 
                 <fieldset>
                     <legend>Ask a question</legend>
-                    <label className="info-content__label" for="multitext"></label>
+                    <label className="info-content__label" htmlFor="multitext"></label>
                     <textarea name="txt" id="multitext" placeholder="Ask a question..."></textarea>
                 </fieldset>
 
