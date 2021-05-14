@@ -12,11 +12,16 @@ const Main = () => {
             <section className="places">
                 <div className="places-container">
                 {
-                    places.map(place =>(
-                    <Places key={place.id}
-                    name={place.name}
-                    img={place.img}
-                    link={place.link}
+                    places.map(({
+                        id,
+                        name,
+                        img,
+                        link,
+                    }) => (
+                    <Places key={id}
+                    name={name}
+                    img={img}
+                    link={link}
                     />
                     ))
                 }
@@ -35,24 +40,42 @@ const Main = () => {
                 <h2> WHAT’S TRAVEL’ </h2>
                     <div className="articles__container">
                     {
-                    articles.map(article =>(
-                    <Articles key={article.id}
-                    img={article.img}
-                    imageLink={article.imageLink}
-                    iconCategories={article.iconCategories}
-                    categories={article.categories}
-                    categoriesLink={article.categoriesLink}
-                    iconDate={article.iconDate}
-                    date={article.date}
-                    title={article.title}
-                    titleLink={article.titleLink}
-                    description={article.description}
-                    iconLike={article.iconLike}
-                    like={article.like}
-                    likeLink={article.likeLink}
-                    iconRead={article.iconRead}
-                    readLink={article.readLink}
-                    read={article.read}
+                    articles.map(({
+                        id,
+                        img,
+                        imageLink,
+                        iconCategories,
+                        categories,
+                        categoriesLink,
+                        iconDate,
+                        date,
+                        title,
+                        titleLink,
+                        description,
+                        iconLike,
+                        like,
+                        likeLink,
+                        iconRead,
+                        readLink,
+                        read,
+                    }) =>(
+                    <Articles key={id}
+                    img={img}
+                    imageLink={imageLink}
+                    iconCategories={iconCategories}
+                    categories={categories}
+                    categoriesLink={categoriesLink}
+                    iconDate={iconDate}
+                    date={date}
+                    title={title}
+                    titleLink={titleLink}
+                    description={description}
+                    iconLike={iconLike}
+                    like={like}
+                    likeLink={likeLink}
+                    iconRead={iconRead}
+                    readLink={readLink}
+                    read={read}
                     />
                     ))
                 }
