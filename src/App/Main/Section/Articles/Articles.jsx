@@ -50,9 +50,14 @@ const Articles = ({
                     </div>
                 </div>
             </div>
-
         </>
     )
+}
+
+Articles.defaultProps = {
+    categories:"categories None",
+    title:"This is default title",
+    description:"This is defaul description"
 }
 
 export default Articles

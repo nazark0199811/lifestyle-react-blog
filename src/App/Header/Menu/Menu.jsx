@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Menu/menu.css'
+import {Link} from 'react-router-dom'
 
 const Menu = () => {
     return (
@@ -14,27 +15,22 @@ const Menu = () => {
             <ul className="header-navbar__list">
 
                 <li className="header-navbar__item">
-                    <a href="/" className="header-navbar__link">Home</a>
+                    <Link to="/" className="header-navbar__link">Home</Link>
                 </li>
-
                 <li className="header-navbar__item">
-                    <a href="/" className="header-navbar__link">Places</a>
+                    <Link to="/places" className="header-navbar__link">Places</Link>
                 </li>
-
                 <li className="header-navbar__item">
-                    <a href="/" className="header-navbar__link">Stories</a>
+                    <Link to="/stories" className="header-navbar__link">Stories</Link>
                 </li>
-
                 <li className="header-navbar__item">
-                    <a href="/" className="header-navbar__link">People</a>
+                    <Link to="/people" className="header-navbar__link">People</Link>
                 </li>
-
                 <li className="header-navbar__item">
-                    <a href="/" className="header-navbar__link">About us</a>
+                    <Link to="/about-us" className="header-navbar__link">About us</Link>
                 </li>
-
                 <li className="header-navbar__item">
-                    <a href="/" className="header-navbar__link">Contacts</a>
+                    <Link to="/contacts" className="header-navbar__link">Contacts</Link>
                 </li>
             </ul>
         </>
