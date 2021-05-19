@@ -1,10 +1,10 @@
 
-import first from '../../../../assets/img/first.jpg'
-import lake from '../../../../assets/img/lake.jpg'
-import bridge from '../../../../assets/img/bridge.jpg'
-import scate from '../../../../assets/img/scate.jpg'
-import bmx from '../../../../assets/img/bmx.jpg'
-import baggi from '../../../../assets/img/baggi.jpg'
+import first from '../assets/img/first.jpg'
+import lake from '../assets/img/lake.jpg'
+import bridge from '../assets/img/bridge.jpg'
+import scate from '../assets/img/scate.jpg'
+import bmx from '../assets/img/bmx.jpg'
+import baggi from '../assets/img/baggi.jpg'
 
 const articles = [
 {
@@ -13,7 +13,7 @@ const articles = [
     imageLink:"/",
     iconCategories: <i className="fas fa-map-marker-alt"></i>,
     categoriesLink:"/",
-    categories:" Travel",
+    category:"Travel",
     iconDate:<i className="far fa-clock"></i>,
     date:" April 27, 2021",
     title:"In hendrerit nulla quam nunc",
@@ -33,7 +33,7 @@ const articles = [
     imageLink:"/",
     iconCategories: <i className="fas fa-map-marker-alt"></i>,
     categoriesLink:"/",
-    categories:" Travel",
+    category:"Travel",
     iconDate:<i className="far fa-clock"></i>,
     date:" April 27, 2021",
     title:"In hendrerit nulla quam nunc",
@@ -53,7 +53,7 @@ const articles = [
     imageLink:"/",
     iconCategories: <i className="fas fa-map-marker-alt"></i>,
     categoriesLink:"/",
-    categories:" Travel",
+    category:"Travel",
     iconDate:<i className="far fa-clock"></i>,
     date:" April 27, 2021",
     title:"In hendrerit nulla quam nunc",
@@ -73,7 +73,7 @@ const articles = [
     imageLink:"/",
     iconCategories: <i className="fas fa-map-marker-alt"></i>,
     categoriesLink:"/",
-    categories:" Extreme",
+    category:"Extreme",
     iconDate:<i className="far fa-clock"></i>,
     date:" April 27, 2021",
     title:"In hendrerit nulla quam nunc",
@@ -93,7 +93,7 @@ const articles = [
     imageLink:"/",
     iconCategories: <i className="fas fa-map-marker-alt"></i>,
     categoriesLink:"/",
-    categories:" Extreme",
+    category:"Extreme",
     iconDate:<i className="far fa-clock"></i>,
     date:" April 27, 2021",
     title:"In hendrerit nulla quam nunc",
@@ -113,7 +113,7 @@ const articles = [
     imageLink:"/",
     iconCategories: <i className="fas fa-map-marker-alt"></i>,
     categoriesLink:"/",
-    categories:" Extreme",
+    category:"Extreme",
     iconDate:<i className="far fa-clock"></i>,
     date:" April 27, 2021",
     title:"In hendrerit nulla quam nunc",

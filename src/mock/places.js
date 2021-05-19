@@ -1,8 +1,8 @@
 
-import beach from '../../../../assets/img/beach.jpg'
-import smock from '../../../../assets/img/smock.jpg'
-import boat from '../../../../assets/img/boat.jpg'
-import house from '../../../../assets/img/house.jpg'
+import beach from '../assets/img/beach.jpg'
+import smock from '../assets/img/smock.jpg'
+import boat from '../assets/img/boat.jpg'
+import house from '../assets/img/house.jpg'
 
 const place = [
     {
