@@ -16,12 +16,8 @@ body {
     
 }
 
-.page{
-    background-color: rgb(255, 115, 0);
-}
-
 .page-title{
     text-align: center;
     font-size: 2rem;
-    color: orange;
+    color: rgb(236, 178, 71);
 }

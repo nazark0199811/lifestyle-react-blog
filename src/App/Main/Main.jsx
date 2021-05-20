@@ -5,10 +5,12 @@ import Form from './Section/Form/Form'
 import Articles from './Section/Articles/Articles.jsx'
 import places from './Section/Places/places.js'
 import articles from './Section/Articles/articles'
+import Header from '../Header/Header.jsx'
 
 const Main = () => {
     return (
         <>
+        <Header/>
             <section className="places">
                 <div className="places-container">
                     {

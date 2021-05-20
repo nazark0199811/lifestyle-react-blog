@@ -3,10 +3,12 @@ import Logo from './Logo/Logo'
 import Menu from './Menu/Menu'
 import Content from './Content/Content'
 
-const Header = () => {
+import defaultBackground from '../../assets/img/header_background.jpg';
+
+const Header = ({ backgroundImage = defaultBackground }) => {
+    
     return (
-        <>
-            <header className="header">
+            <header className="header "  style={{ backgroundImage: `url(${backgroundImage})` }}>
                 <div className="header-menu">
                     <div className="header-menu__container">
                             <Logo/>
@@ -19,7 +21,6 @@ const Header = () => {
                     <Content/>
                 </div>
             </header>
-        </>
     )
 }
 
