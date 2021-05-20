@@ -1,42 +1,12 @@
 import React from 'react'
-import Places from './Section/Places/Places.jsx'
-import Info from './Section/Info/Info'
-import Form from './Section/Form/Form'
-import Articles from './Section/Articles/Articles.jsx'
-import places from './Section/Places/places.js'
-import articles from './Section/Articles/articles'
 
-const Main = () => {
-    return (
+import articles from './articles.js'
+import Articles from './Articles.jsx'
+
+const   CategoryExtreme = () =>{
+    return(
         <>
-            <section className="places">
-                <div className="places-container">
-                    {
-                        places.map(({
-                            id,
-                            name,
-                            img,
-                            link,
-                        }) => (
-                            <Places
-                                key={id}
-                                name={name}
-                                img={img}
-                                link={link}
-                            />
-                        ))
-                    }
-                </div>
-            </section>
-
-            <section className="info">
-                <div className="info__container" >
-                    <Info />
-                    <div className="info-content__form">
-                        <Form />
-                    </div>
-                </div>
-
+                
                 <div className="articles">
                     <h2> WHAT’S TRAVEL’ </h2>
                     <div className="articles__container">
@@ -55,6 +25,7 @@ const Main = () => {
                                     titleLink={article.titleLink}
                                     description={article.description}
                                     iconLike={article.iconLike}
+                                    like={article.like}
                                     likeLink={article.likeLink}
                                     iconRead={article.iconRead}
                                     readLink={article.readLink}
@@ -64,9 +35,8 @@ const Main = () => {
                         }
                     </div>
                 </div>
-            </section>
         </>
     )
 }
 
-export default Main
+export default CategoryExtreme

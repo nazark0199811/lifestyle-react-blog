@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../Articles/articles.css'
 
 const Articles = ({
@@ -13,7 +14,6 @@ const Articles = ({
     titleLink,
     description,
     iconLike,
-    like,
     likeLink,
     iconRead,
     readLink,
@@ -27,7 +27,7 @@ const Articles = ({
 
                 <div className="article-item__head">
                     <span className="categories-icon">{iconCategories}</span>
-                    <span className="categories-name"><a href={categoriesLink}>{categories}</a></span>
+                    <span className="categories-name"><Link to={categoriesLink}>{categories}</Link></span>
                     <span className="date-icon">{iconDate}</span>
                     <span className="date-data">{date}</span>
                 </div>
@@ -39,7 +39,6 @@ const Articles = ({
                     <div className="article-item__likes">
                         <a href={likeLink}>
                             <span className="heart-icon">{iconLike}</span>
-                            <span className="heart-count">{like}</span>
                         </a>
                     </div>
                     <div className="article-item__read">

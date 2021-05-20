@@ -1,15 +1,26 @@
 import React from 'react'
-import Title from './Title/Title'
-import Social from './Social/Social'
 
 const Footer = () => {
     return (
         <>
             <footer className="footer">
                 <div className="footer__container">
-                    <Social/>
-                    <Title/>
                 </div>
+
+                <div className="footer__social">
+
+                <a href="/" className="fab fa-facebook-square"> </a>
+                <a href="/" className="fab fa-google-plus-square"> </a>
+                <a href="/" className="fab fa-twitter-square"> </a>
+                <a href="/" className="fab fa-pinterest-square"> </a>
+                <a href="/" className="fab fa-flickr"> </a>
+
+            </div>
+
+            <div className="footer__title">
+                <span>TRAVEL IS LIFE</span><br />
+                <span> I PREFER TRAVELING LIGHT.</span>
+            </div>
             </footer>
         </>
     )

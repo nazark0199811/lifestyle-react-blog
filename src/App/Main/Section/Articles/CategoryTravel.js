@@ -1,15 +1,15 @@
 import React from 'react'
 
-const   PlacesPage = () =>{
+const   CategoryTravel = () =>{
     return(
         <>
         <div className="page">
                 
-            <h1 className="page-title">Page with </h1>
+            <h1 className="page-title">Travel</h1>
              
          </div>
         </>
     )
 }
 
-export default PlacesPage
+export default CategoryTravel

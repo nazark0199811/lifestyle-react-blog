@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../Menu/menu.css'
 import {Link} from 'react-router-dom'
 
 const Menu = () => {
+
+    const [isOpened, setisOpened] = useState(false);
+    const activeClass = isOpened ? 'active' : '';
+
     return (
         <>
-            <div className="header-navbar__btn">
+            <div className={`header-navbar__btn ${activeClass}`} onClick={() => setisOpened(!isOpened)}>
                 <span className="header-navbar__btn-row"></span>
                 <span className="header-navbar__btn-row"></span>
                 <span className="header-navbar__btn-row"></span>

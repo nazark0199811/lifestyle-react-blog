@@ -15,3 +15,13 @@ body {
     background-color: #161f22;
     
 }
+
+.page{
+    background-color: rgb(255, 115, 0);
+}
+
+.page-title{
+    text-align: center;
+    font-size: 2rem;
+    color: orange;
+}

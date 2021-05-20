@@ -48,13 +48,23 @@
     border-bottom: 1px dashed #5d7b86; 
     color: #5d7b86;
     font-size: 12px;
+    margin-left: 2px;
   }
   
   .date-data{
     text-decoration: none; 
     color: #5d7b86;
     font-size: 12px;
+    margin-left: 2px;
   }
+
+  .far {
+    color: rgb(223, 161, 48) !;
+  }
+  .read-description{
+    margin-left: 2px;
+  }
+
   
   .categories-icon, .date-icon{
     color: #5d7b86;
@@ -89,12 +99,7 @@
     font-size: 12px;
     color: #5d7b86;
   }
-  
-  /* .article-item__read a{
-    transition: 0.7s;
-    margin-left: 290px;
-  } */
-  
+
   .article-item__read a:hover{
     color: #db9d3a;
   }
