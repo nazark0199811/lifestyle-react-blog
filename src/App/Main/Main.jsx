@@ -56,6 +56,7 @@ const Main = () => {
                                     title={article.title}
                                     titleLink={article.titleLink}
                                     description={article.description}
+                                    iconDislike={article.iconDislike}
                                     iconLike={article.iconLike}
                                     likeLink={article.likeLink}
                                     iconRead={article.iconRead}

@@ -9,13 +9,11 @@ import './Header/header.css'
 import './Footer/footer.css'
 
 import PlacesPage from './Main/PlacesPage/PlacesPage'
-import CategoryTravel from './Main/Section/Articles/CategoryTravel'
-import CategoryExtreme from './Main/Section/Articles/CategoryExtreme'
 import StoriesPage from './Main/StoriesPage/StoriesPage'
 import PeoplePage from './Main/PeoplePage/PeoplePage'
 import AboutUs from './Main/AboutUsPage/AboutUsPage'
 import ContactsPage from './Main/ContactsPage/ContactsPage'
-
+import { Category } from './Main/Section/Articles/Category'
 
 const App = () => {
     return (
@@ -39,11 +37,8 @@ const App = () => {
                 <Route path='/contacts'>
                     <ContactsPage />
                 </Route>
-                <Route path='/articles/travel'>
-                    <CategoryTravel />
-                </Route>
-                <Route path='/articles/extreme'>
-                    <CategoryExtreme />
+                <Route path='/categories/:categoryName'>
+                <Category/>
                 </Route>
             </Switch>
             <Footer />
